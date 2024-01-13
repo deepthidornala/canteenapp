@@ -1,0 +1,242 @@
+export const sample_foods = [
+  {
+    id: '1',
+    name:'Tea',
+    cookTime: '3-5' ,
+    price: 10,
+    favorite: true,
+    origins: ['Assam'],
+    stars:4.5,
+    imageUrl:'Food-1.jpg',
+    tags: ['Bevarages','drinks'],
+  },
+  {
+    id: '2',
+  name: 'Coffee',
+  cookTime: '3-5' ,
+  price: 12,
+  favorite: false,
+  origins: ['Karnataka'],
+  stars:4.5,
+  imageUrl: 'Food-2.jpg',
+  tags:['Bevarages','drinks']
+  },
+  {
+    id: '3',
+  name: 'Idli',
+  cookTime: '15-20',
+  price: 25,
+  favorite: false,
+  origins: ['TamilNadu'],
+  stars:3.5,
+  imageUrl: 'Food-3.jpg',
+  tags:['Breakfast','Tiffins']
+  },
+  {
+    id:' 4',
+  name: 'Vada',
+  cookTime: '15-20',
+  price: 25,
+  favorite: true,
+  origins: ['TamilNadu'],
+  stars:4.0,
+  imageUrl:'Food-4.jpg',
+  tags:['Breakfast','Tiffins']
+  },
+  {
+    id:'5',
+  name: 'MasalaDosa',
+  cookTime: '15-25',
+  price: 25,
+  favorite: true,
+  origins: ['Karnataka'],
+  stars:4.5,
+  imageUrl:'Food-5.png',
+  tags: ['Breakfast','Tiffins']
+  },
+  {
+    id: '6',
+  name: 'PaneerFrankie',
+  cookTime:'35-40',
+  price: 75,
+  favorite: false,
+  origins:['Mumbai'],
+  stars:3.5,
+  imageUrl:'Food-6.jpg',
+  tags:['FastFood','Snacks','Frankie','Veg']
+  },
+  {
+    id: '7',
+  name: 'ChickenFrankie',
+  cookTime: '35-40',
+  price: 85,
+  favorite: true,
+  origins: ['Mumbai'],
+  stars:4.5,
+  imageUrl:'Food-7.jpg',
+  tags:['FastFood','Snacks','Frankie','Non-Veg']
+  },
+  {
+    id: '8',
+  name: 'DoubleEggChickenFrankie',
+  cookTime: '35-40',
+  price: 95,
+  favorite: true,
+  origins: ['Mumbai'],
+  stars:4.5,
+  imageUrl:'Food-8.jpg',
+  tags:['FastFood','Snacks','Frankie','Non-Veg']
+  },
+  {
+    id: '9',
+  name: 'VegBurger',
+  cookTime: '35-45',
+  price: 60,
+  favorite: true,
+  origins: ['UnitedStates'],
+  stars:4.5,
+  imageUrl: 'Food-9.jpg',
+  tags:['FastFood','Snacks','Veg']
+  },
+  {
+    id: '10',
+  name: 'ChickenHotDog',
+  cookTime: '35-45',
+  price: 60,
+  favorite: true,
+  origins: ['UnitedStates'],
+  stars:4.0,
+  imageUrl:'Food-10.jpg',
+  tags:['FastFood','Snacks','Non-Veg']
+  },
+  {
+    id: '11',
+  name: 'ChickenPizza',
+  cookTime: '35-45',
+  price: 60,
+  favorite: true,
+  origins: ['UnitedStates'],
+  stars:4.0,
+  imageUrl:'Food-11.jpg',
+  tags:['FastFood','Snacks','Non-Veg']
+  },
+  {
+    id: '12',
+  name: 'ChocoLava',
+  cookTime: '3-5',
+  price: 50,
+  favorite: true,
+  origins: ['Pairs'],
+  stars:4.0,
+  imageUrl:'Food-12.png',
+  tags:['FastFood','Desserts','Snacks']
+  },
+  {
+    id: '13',
+  name: 'ChickenBriyani',
+  cookTime: '20-30',
+  price: 130,
+  favorite: true,
+  origins:[' Hyderabad'],
+  stars:4.5,
+  imageUrl:'Food-13.jpg',
+  tags:['Lunch','Non-Veg']
+  },
+  {
+    id: '14',
+  name: 'GobiRice',
+  cookTime: '20-30',
+  price: 75,
+  favorite: false,
+  origins: ['China'],
+  stars:3.5,
+  imageUrl:'Food-14.jpg',
+  tags:['Lunch','Veg']
+  },
+  {
+    id:'15',
+  name: 'Parota+EggCurry',
+  cookTime: '10-20',
+  price: 100,
+  favorite: false,
+  origins:  ['Kerala'],
+  stars:3.5,
+  imageUrl:'Food-15.jpg',
+  tags:['Lunch','Non-Veg']
+  },
+  {
+    id: '16',
+  name: 'ChickenSaladBuna',
+  cookTime: '15-20',
+  price: 60,
+  favorite: false,
+  origins: ['France'],
+  stars:3.5,
+  imageUrl:'Food-16.jpg',
+  tags:['FastFood','Non-Veg','Snacks']
+  },
+  {
+    id:' 17',
+  name: 'ChickenShawarma',
+  cookTime: '20-25',
+  price: 90,
+  favorite: false,
+  origins: ['France'],
+  stars:3.5,
+  imageUrl:'Food-17.jpg',
+  tags:['FastFood','Non-Veg','Snacks']
+  },
+  {
+  id: '18',
+  name: 'Vegpulao',
+  cookTime: '20-30',
+  price: 75,
+  favorite: false,
+  origins: ['Hyderabad'],
+  stars: 4.5,
+  imageUrl:'Food-18.jpg',
+  tags:['Lunch','Veg']
+  },
+  {
+  id: '19',
+  name: 'ChickenPuff',
+  cookTime: '5-10',
+  price: 30,
+  favorite: false,
+  origins: ['America'],
+  stars:4.5,
+  imageUrl:'Food-19.jpg',
+  tags:['FastFood','Non-Veg','Snacks']
+  },
+  ];
+  
+  export const sample_tags = [
+    { name: 'All', count: 19 },
+    { name: 'FastFood', count: 10 },
+    { name: 'Non-Veg', count: 9 },
+    { name: 'Lunch', count: 4 },
+    { name: 'Snacks', count: 7 },
+    { name: 'Breakfast', count: 3 },
+    { name: 'Bevarages', count: 2 },
+    { name: 'Veg', count: 4 },
+    { name: 'Frankie', count: 3},
+  ];
+  
+  export const sample_users = [
+    {
+      id: 1,
+      name: 'John Doe',
+      email: 'john@gmail.com',
+      password: '12345',
+      address: 'Toronto On',
+      isAdmin: false,
+    },
+    {
+      id: 2,
+      name: 'Jane Doe',
+      email: 'jane@gmail.com',
+      password: '12345',
+      address: 'Shanghai',
+      isAdmin: true,
+    },
+  ];
